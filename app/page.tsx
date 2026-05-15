@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/bubble-bliss/HeroSection";
 import { TrustSection } from "@/components/bubble-bliss/TrustSection";
 import { LogisticsSection } from "@/components/bubble-bliss/LogisticsSection";
 import { PricingSection } from "@/components/bubble-bliss/PricingSection";
+import { EventInfoSection } from "@/components/bubble-bliss/EventInfoSection";
 import { FooterSection } from "@/components/bubble-bliss/FooterSection";
 import { StickyBookButton } from "@/components/bubble-bliss/StickyBookButton";
 
@@ -49,6 +50,7 @@ export default function Home() {
         <div ref={pricingRef}>
           <PricingSection />
         </div>
+        <EventInfoSection />
         <FooterSection />
       </div>
 
